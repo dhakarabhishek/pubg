@@ -2137,7 +2137,7 @@ def main():
         application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
         print("🤖 OSINT BOT v2.0 is LIVE 🔥")
-        print(f"👨‍💻 Developer Channel: {t.me/urs_lucifer}")
+        print(f"👨‍💻 Developer Channel: https://t.me/urs_lucifer")
         print(f"📊 Admin ID: {ADMIN_ID}")
         print("📝 User tracking enabled")
         print("⚡ Starting polling...")
@@ -2180,3 +2180,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
