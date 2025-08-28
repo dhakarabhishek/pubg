@@ -1,0 +1,9 @@
+python-telegram-bot==20.7
+requests
+beautifulsoup4
+pymongo[srv]
+pillow
+exifread
+pytesseract
+opencv-python
+numpy
